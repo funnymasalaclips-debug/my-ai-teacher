@@ -29,7 +29,7 @@ Follow these strict rules:
 if "chat_session" not in st.session_state:
     # Initialize the Gemini 1.5 Flash model (great for fast, conversational text)
     model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
+        model_name="gemini-1.5-flash-latest",
         system_instruction=SYSTEM_INSTRUCTION
     )
     # Start an ongoing chat session
